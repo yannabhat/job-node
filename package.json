@@ -1,0 +1,25 @@
+{
+  "name": "@happy1519/job-node",
+  "version": "1.0.0",
+  "description": "Cron Job for bangkok time zone",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tsc"
+  },
+  "keywords": [
+    "cron job",
+    "bangkok",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Yannabhat PLiensak (yannabhat@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cron": "^3.1.6"
+  }
+}
